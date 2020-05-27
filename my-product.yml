@@ -1,10 +1,10 @@
 server:
-  port: 9098
+  port: 8003
 
 eureka:
   instance:
     hostname: localhost
-    port: 9090
+    port: 8001
   client:
     registerWithEureka: true
     fetchRegistry: false
