@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: my-review
+  cloud:
+    config:
+      uri: http://localhost:8000

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: my-eureka
+  cloud:
+    config:
+      uri: http://localhost:8000
+ 
