@@ -15,13 +15,13 @@ eureka:
 
 spring:
     datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver  
-        password: 'hayabusa1300'
+        driver-class-name: org.h2.Driver  
+        password: ''
         platform: mysql
-        url: jdbc:mysql://localhost:3306/DB_SUPERMARKET?verifyServerCertificate=false&useSSL=false&requireSSL=false
-        username: cassio
+        url: jdbc:h2:mem:DB_SUPERMARKET
+        username: sa
     jpa:
-        database-platform: org.hibernate.dialect.MySQLDialect
+        database-platform: org.hibernate.dialect.H2Dialect
         generate-ddl: false
         hibernate:
             ddl-auto: update
